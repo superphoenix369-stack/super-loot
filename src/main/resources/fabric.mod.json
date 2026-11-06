@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "superloot",
+	"version": "${version}",
+	"name": "SuperLoot",
+	"description": "Scatters loot chests across the Overworld surface: 0-3 chests in every 256x256 block area, on land or on the sea floor. Choose how many chests appear and how good the loot is in the settings.",
+	"authors": [
+		"Zac Supinger"
+	],
+	"license": "MIT",
+	"icon": "assets/superloot/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.superloot.SuperLoot"
+		],
+		"modmenu": [
+			"com.superloot.client.SuperLootModMenu"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

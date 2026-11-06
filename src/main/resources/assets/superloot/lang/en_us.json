@@ -1,0 +1,21 @@
+{
+	"superloot.options.title": "SuperLoot Settings",
+
+	"superloot.option.chest_amount": "Chests per Area",
+	"superloot.option.chest_amount.low": "Low (0-1)",
+	"superloot.option.chest_amount.low.tooltip": "0 or 1 chest in every 256x256 block area. Applies to land you haven't explored yet.",
+	"superloot.option.chest_amount.medium": "Medium (1-2)",
+	"superloot.option.chest_amount.medium.tooltip": "1 or 2 chests in every 256x256 block area. Applies to land you haven't explored yet.",
+	"superloot.option.chest_amount.high": "High (2-3)",
+	"superloot.option.chest_amount.high.tooltip": "2 or 3 chests in every 256x256 block area. Applies to land you haven't explored yet.",
+
+	"superloot.option.loot_quality": "Loot Quality",
+	"superloot.option.loot_quality.common": "Common",
+	"superloot.option.loot_quality.common.tooltip": "Everyday supplies: food, torches, coal, iron, simple tools.",
+	"superloot.option.loot_quality.mixed": "Mixed",
+	"superloot.option.loot_quality.mixed.tooltip": "Mostly common chests, with about 1 in 4 being a rare chest.",
+	"superloot.option.loot_quality.rare": "Rare",
+	"superloot.option.loot_quality.rare.tooltip": "Treasure: diamonds, enchanted gear, golden apples and more.",
+
+	"modmenu.descriptionTranslation.superloot": "Scatters loot chests across the Overworld surface. Choose how many appear and how good the loot is."
+}
